@@ -25,7 +25,7 @@ HRESULT gameNode::init(bool managerInit)
 		INIDATA->init();					//INI데이터 초기화
 		TIMEMANAGER->init();				//타임매니져 초기화
 		SOUNDMANAGER->init();				//사운드매니져 초기화
-		CAMERAMANAGER->init();
+		
 	}
 
 	return S_OK;
@@ -65,8 +65,7 @@ void gameNode::release(void)
 		//사운드매니져 싱글톤 해제
 		SOUNDMANAGER->release();
 		SOUNDMANAGER->releaseSingleton();
-		CAMERAMANAGER->release();
-		CAMERAMANAGER->releaseSingleton();
+		
 	}
 
 	//DC 해제

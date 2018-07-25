@@ -63,6 +63,9 @@
     <Filter Include="MainGame\사운드테스트">
       <UniqueIdentifier>{ec0359dd-5aee-47a7-adc7-c12395fd20f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\Intro">
+      <UniqueIdentifier>{41aad3a3-513e-4ecd-a6bb-4637c70747b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="commonMacroFunction.h">
@@ -149,8 +152,8 @@
     <ClInclude Include="soundTestScene.h">
       <Filter>MainGame\사운드테스트</Filter>
     </ClInclude>
-    <ClInclude Include="cameraManager.h">
-      <Filter>GameFramework2D\매니져</Filter>
+    <ClInclude Include="IntroScene.h">
+      <Filter>MainGame\Intro</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -232,8 +235,8 @@
     <ClCompile Include="soundTestScene.cpp">
       <Filter>MainGame\사운드테스트</Filter>
     </ClCompile>
-    <ClCompile Include="cameraManager.cpp">
-      <Filter>GameFramework2D\매니져</Filter>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>MainGame\Intro</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

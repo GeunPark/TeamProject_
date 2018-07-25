@@ -148,7 +148,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="bullet.h" />
-    <ClInclude Include="cameraManager.h" />
     <ClInclude Include="commonMacroFunction.h" />
     <ClInclude Include="enemy.h" />
     <ClInclude Include="enemyManager.h" />
@@ -157,6 +156,7 @@
     <ClInclude Include="imageManager.h" />
     <ClInclude Include="iniData.h" />
     <ClInclude Include="iniTestScene.h" />
+    <ClInclude Include="IntroScene.h" />
     <ClInclude Include="keyManager.h" />
     <ClInclude Include="loading.h" />
     <ClInclude Include="loadingScene.h" />
@@ -179,7 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bullet.cpp" />
-    <ClCompile Include="cameraManager.cpp" />
     <ClCompile Include="enemy.cpp" />
     <ClCompile Include="enemyManager.cpp" />
     <ClCompile Include="gameNode.cpp" />
@@ -187,6 +186,7 @@
     <ClCompile Include="imageManager.cpp" />
     <ClCompile Include="iniData.cpp" />
     <ClCompile Include="iniTestScene.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
     <ClCompile Include="keyManager.cpp" />
     <ClCompile Include="loading.cpp" />
     <ClCompile Include="loadingScene.cpp" />

@@ -29,7 +29,7 @@ void loadingScene::update(void)
 	//·Îµù¿Ï·áÈÄ ¾Àº¯°æ
 	if (_loading->loadingDone())
 	{
-		//SCENEMANAGER->loadScene("ÇÈ¼¿Ãæµ¹");
+		SCENEMANAGER->loadScene("ÇÈ¼¿Ãæµ¹");
 	}
 
 	if (KEYMANAGER->isOnceKeyDown(VK_LBUTTON))

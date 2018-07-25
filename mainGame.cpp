@@ -18,9 +18,9 @@ HRESULT mainGame::init(void)
 	SCENEMANAGER->addScene("ini", new iniTestScene);
 	SCENEMANAGER->addScene("로딩화면", new loadingScene);
 	SCENEMANAGER->addScene("사운드", new soundTestScene);
-
+	SCENEMANAGER->addScene("인트로씬", new IntroScene);
 	/*현재씬 설정*/
-	SCENEMANAGER->loadScene("픽셀충돌");
+	SCENEMANAGER->loadScene("인트로씬");
 
 	return S_OK;
 }
