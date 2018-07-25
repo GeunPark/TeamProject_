@@ -156,6 +156,7 @@
     <ClInclude Include="IntroScene.h" />
     <ClInclude Include="keyManager.h" />
     <ClInclude Include="loading.h" />
+    <ClInclude Include="loadingScene.h" />
     <ClInclude Include="mainGame.h" />
     <ClInclude Include="progressBar.h" />
     <ClInclude Include="randomFunction.h" />
@@ -171,16 +172,20 @@
   <ItemGroup>
     <ClCompile Include="bullet.cpp" />
     <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="GeunHwaLoadFile.cpp" />
+    <ClCompile Include="GiHoonLoadFile.cpp" />
     <ClCompile Include="image.cpp" />
     <ClCompile Include="imageManager.cpp" />
     <ClCompile Include="iniData.cpp" />
     <ClCompile Include="IntroScene.cpp" />
     <ClCompile Include="keyManager.cpp" />
     <ClCompile Include="loading.cpp" />
+    <ClCompile Include="loadingScene.cpp" />
     <ClCompile Include="mainGame.cpp" />
     <ClCompile Include="progressBar.cpp" />
     <ClCompile Include="saveData.cpp" />
     <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="SeoeaWonLoadFile.cpp" />
     <ClCompile Include="soundManager.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -188,6 +193,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SunSooLoadFile.cpp" />
     <ClCompile Include="timeManager.cpp" />
     <ClCompile Include="txtData.cpp" />
     <ClCompile Include="util.cpp" />

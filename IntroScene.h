@@ -12,8 +12,10 @@ class IntroScene :	public gameNode
 {
 private:
 	image* _intro[5];
-	tagBox _rc;
-	int _count;
+	tagBox _rc[2];
+	int _count, _count2, _count3;
+	bool Uturn, Uturn2;
+	int alpha;
 
 public:
 

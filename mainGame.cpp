@@ -13,9 +13,10 @@ HRESULT mainGame::init(void)
 	//그리고 각각의 씬들이 메인게임 역할을 하면 된다
 
 	/*씬추가*/
+	SCENEMANAGER->addScene("로딩씬", new loadingScene);
 	SCENEMANAGER->addScene("인트로씬", new IntroScene);
 	/*현재씬 설정*/
-	SCENEMANAGER->loadScene("인트로씬");
+	SCENEMANAGER->loadScene("로딩씬");
 
 	return S_OK;
 }

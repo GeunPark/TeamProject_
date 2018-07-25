@@ -29,7 +29,7 @@ void loadingScene::update(void)
 	//로딩완료후 씬변경
 	if (_loading->loadingDone())
 	{
-		SCENEMANAGER->loadScene("픽셀충돌");
+		SCENEMANAGER->loadScene("인트로씬");
 	}
 
 	if (KEYMANAGER->isOnceKeyDown(VK_LBUTTON))
@@ -72,7 +72,7 @@ void loadingScene::loadingImage()
 	//_loading->loadSound();
 	SetBkMode(getMemDC(), TRANSPARENT);
 	//로딩이 너무 빠르게 진행되서 천천히 돌아가도록 테스트용으로 만들기
-	for (int i = 0; i < 500; i++)
+	for (int i = 0; i < 50; i++)
 	{
 		char str[128];
 		sprintf_s(str, "%s_%d", "testImage", i + 1);
@@ -80,7 +80,7 @@ void loadingScene::loadingImage()
 	}
 	//IMAGEMANAGER->addImage("mountain", "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
 	//백그라운드 이미지
-	for (int i = 0; i < 500; i++)
+	for (int i = 0; i < 50; i++)
 	{
 		char str[128];
 		sprintf_s(str, "%s_%d", "mountain", i + 1);
@@ -93,4 +93,7 @@ void loadingScene::loadingImage()
 //로딩사운드 함수(이곳에 사운드를 전부 넣어라)
 void loadingScene::loadingSound()
 {
+	GeunHwaSound();
 }
+
+

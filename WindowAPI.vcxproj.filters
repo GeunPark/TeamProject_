@@ -57,6 +57,9 @@
     <Filter Include="MainGame\세원">
       <UniqueIdentifier>{65edfea8-af2a-40f6-ab98-ff1e12ad7898}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\로딩씬">
+      <UniqueIdentifier>{94c43ebd-f025-44c9-a6d0-881b22d8b411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="commonMacroFunction.h">
@@ -119,6 +122,9 @@
     <ClInclude Include="IntroScene.h">
       <Filter>MainGame\근화</Filter>
     </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>MainGame\로딩씬</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -174,6 +180,21 @@
     </ClCompile>
     <ClCompile Include="IntroScene.cpp">
       <Filter>MainGame\근화</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>MainGame\로딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="SeoeaWonLoadFile.cpp">
+      <Filter>MainGame\로딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="SunSooLoadFile.cpp">
+      <Filter>MainGame\로딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GeunHwaLoadFile.cpp">
+      <Filter>MainGame\로딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GiHoonLoadFile.cpp">
+      <Filter>MainGame\로딩씬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

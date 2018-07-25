@@ -18,7 +18,19 @@ public:
 	//로딩사운드 함수(이곳에 사운드를 전부 넣어라)
 	void loadingSound();
 
+	void SeoeaWonImage();
+	void SunSooImage();
+	void GeunHwaImage();
+	void GiHoonImage();
+
+	void SeoeaWonSound();
+	void SunSooSound();
+	void GeunHwaSound();
+	void GiHoonSound();
+
+
 	loadingScene() {}
 	~loadingScene() {}
 };
+
 
