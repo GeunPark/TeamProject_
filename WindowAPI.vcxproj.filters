@@ -45,8 +45,17 @@
     <Filter Include="GameFramework2D\로딩">
       <UniqueIdentifier>{fb808856-b378-426f-9374-63caea3bdcda}</UniqueIdentifier>
     </Filter>
-    <Filter Include="MainGame\Intro">
+    <Filter Include="MainGame\선수">
+      <UniqueIdentifier>{30263491-1259-4ea1-b4d7-204074dc1f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\기훈">
+      <UniqueIdentifier>{ca397ff0-dd70-4879-810f-aaf2b23725e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\근화">
       <UniqueIdentifier>{41aad3a3-513e-4ecd-a6bb-4637c70747b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\세원">
+      <UniqueIdentifier>{65edfea8-af2a-40f6-ab98-ff1e12ad7898}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +117,7 @@
       <Filter>GameFramework2D\매니져</Filter>
     </ClInclude>
     <ClInclude Include="IntroScene.h">
-      <Filter>MainGame\Intro</Filter>
+      <Filter>MainGame\근화</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -164,7 +173,7 @@
       <Filter>GameFramework2D\매니져</Filter>
     </ClCompile>
     <ClCompile Include="IntroScene.cpp">
-      <Filter>MainGame\Intro</Filter>
+      <Filter>MainGame\근화</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
