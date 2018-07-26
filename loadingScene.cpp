@@ -62,6 +62,8 @@ void loadingScene::render(void)
 	sprintf_s(str, "%.f %%", per);
 	TextOut(getMemDC(), 660, 430, str, strlen(str));                                                            
 
+
+	
 }
 
 //로딩이미지 함수(이곳에 이미지를 전부 넣어라)
@@ -87,6 +89,7 @@ void loadingScene::loadingImage()
 	//	_loading->loadImage(str, "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
 	//}
 	this->GeunHwaImage();
+	this->GiHoonImage();
 
 }
 

@@ -128,6 +128,9 @@
     <ClInclude Include="startScene.h">
       <Filter>MainGame\근화</Filter>
     </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>MainGame\기훈</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -201,6 +204,9 @@
     </ClCompile>
     <ClCompile Include="startScene.cpp">
       <Filter>MainGame\근화</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>MainGame\기훈</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

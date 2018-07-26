@@ -44,7 +44,7 @@ void startScene::update(void)
 		SOUNDMANAGER->play("셀렉사운드");
 		if (y == START)	
 		{
-
+			SCENEMANAGER->loadScene("스테이지1");
 		}
 		else if (y == SETTING)
 		{
