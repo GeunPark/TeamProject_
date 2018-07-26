@@ -125,6 +125,9 @@
     <ClInclude Include="loadingScene.h">
       <Filter>MainGame\로딩씬</Filter>
     </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>MainGame\근화</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -184,17 +187,20 @@
     <ClCompile Include="loadingScene.cpp">
       <Filter>MainGame\로딩씬</Filter>
     </ClCompile>
-    <ClCompile Include="SeoeaWonLoadFile.cpp">
-      <Filter>MainGame\로딩씬</Filter>
-    </ClCompile>
-    <ClCompile Include="SunSooLoadFile.cpp">
-      <Filter>MainGame\로딩씬</Filter>
-    </ClCompile>
     <ClCompile Include="GeunHwaLoadFile.cpp">
-      <Filter>MainGame\로딩씬</Filter>
+      <Filter>MainGame\근화</Filter>
     </ClCompile>
     <ClCompile Include="GiHoonLoadFile.cpp">
-      <Filter>MainGame\로딩씬</Filter>
+      <Filter>MainGame\기훈</Filter>
+    </ClCompile>
+    <ClCompile Include="SeoeaWonLoadFile.cpp">
+      <Filter>MainGame\세원</Filter>
+    </ClCompile>
+    <ClCompile Include="SunSooLoadFile.cpp">
+      <Filter>MainGame\선수</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>MainGame\근화</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -102,7 +102,7 @@ HRESULT loadItem::init(string keyName, const char * fileName, bool bgm, bool loo
 HRESULT loading::init(void)
 {
 	//로딩화면 백그라운드 이미지 초기화
-	_background = IMAGEMANAGER->addImage("bgLoadingScene", "bgLoadingScene.bmp", WINSIZEX, WINSIZEY);
+	_background = IMAGEMANAGER->addImage("bgLoadingScene", "resource/로딩이미지.bmp", WINSIZEX, WINSIZEY);
 	
 	//로딩바 클래스 초기화
 	_loadingBar = new progressBar;

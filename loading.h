@@ -54,7 +54,7 @@ public:
 	HRESULT init(string keyName, const char* fileName, int width, int height, int frameX, int frameY, bool isTrans = TRUE, COLORREF transColor = RGB(255, 0, 255));
 	HRESULT init(string keyName, const char* fileName, float x, float y, int width, int height, int frameX, int frameY, bool isTrans = TRUE, COLORREF transColor = RGB(255, 0, 255));
 
-	HRESULT init(string keyName, const char* fileName, bool bgm, bool loop);
+	HRESULT init(string keyName, const char* fileName, bool bgm = FALSE, bool loop = FALSE);
 
 	//로딩아이템 종류 가져오기
 	LOAD_KIND getLoadingKind() { return _kind; }
@@ -99,7 +99,7 @@ public:
 	void loadFrameImage(string keyName, const char* fileName, int width, int height, int frameX, int frameY, bool isTrans = TRUE, COLORREF transColor = RGB(255, 0, 255));
 	void loadFrameImage(string keyName, const char* fileName, float x, float y, int width, int height, int frameX, int frameY, bool isTrans = TRUE, COLORREF transColor = RGB(255, 0, 255));
 
-	void loadSound(string keyName, const char* fileName, bool bgm, bool loop);
+	void loadSound(string keyName, const char* fileName, bool bgm = FALSE, bool loop = FALSE);
 	/*중요함*/
 	//로딩완료 됐냐?(로딩완료후 화면전환)
 	BOOL loadingDone();

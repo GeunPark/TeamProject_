@@ -32,15 +32,15 @@ void loadingScene::update(void)
 		SCENEMANAGER->loadScene("인트로씬");
 	}
 
-	if (KEYMANAGER->isOnceKeyDown(VK_LBUTTON))
-	{
-		float num = _loading->getLoadItem().size();
-		float cur = _loading->getCurrnetGauge();
-		float per = cur / num * 100;
-		cout << "전체 파일갯수 : " << num << endl;
-		cout << "현재 로딩갯수 : " << cur << endl;
-		cout << per << " %" << endl;
-	}
+	//if (KEYMANAGER->isOnceKeyDown(VK_LBUTTON))
+	//{
+	//	float num = _loading->getLoadItem().size();
+	//	float cur = _loading->getCurrnetGauge();
+	//	float per = cur / num * 100;
+	//	cout << "전체 파일갯수 : " << num << endl;
+	//	cout << "현재 로딩갯수 : " << cur << endl;
+	//	cout << per << " %" << endl;
+	//}
 }
 
 void loadingScene::render(void)
@@ -72,21 +72,21 @@ void loadingScene::loadingImage()
 	//_loading->loadSound();
 	SetBkMode(getMemDC(), TRANSPARENT);
 	//로딩이 너무 빠르게 진행되서 천천히 돌아가도록 테스트용으로 만들기
-	for (int i = 0; i < 50; i++)
-	{
-		char str[128];
-		sprintf_s(str, "%s_%d", "testImage", i + 1);
-		_loading->loadImage(str, WINSIZEX, WINSIZEY);
-	}
-	//IMAGEMANAGER->addImage("mountain", "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
-	//백그라운드 이미지
-	for (int i = 0; i < 50; i++)
-	{
-		char str[128];
-		sprintf_s(str, "%s_%d", "mountain", i + 1);
-		_loading->loadImage(str, "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
-	}
-	
+	//for (int i = 0; i < 50; i++)
+	//{
+	//	char str[128];
+	//	sprintf_s(str, "%s_%d", "testImage", i + 1);
+	//	_loading->loadImage(str, WINSIZEX, WINSIZEY);
+	//}
+	////IMAGEMANAGER->addImage("mountain", "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
+	////백그라운드 이미지
+	//for (int i = 0; i < 50; i++)
+	//{
+	//	char str[128];
+	//	sprintf_s(str, "%s_%d", "mountain", i + 1);
+	//	_loading->loadImage(str, "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
+	//}
+	this->GeunHwaImage();
 
 }
 
