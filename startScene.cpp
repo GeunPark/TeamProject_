@@ -3,6 +3,7 @@
 
 HRESULT startScene::init(void)
 {
+	
 	x = WINSIZEX / 2 - 240;
 	y = START;
 	rc = RectMake(x, y, IMAGEMANAGER->findImage("½ºÅ¸Æ®¾À¼¿·º¹Ú½º")->getWidth(), IMAGEMANAGER->findImage("½ºÅ¸Æ®¾À¼¿·º¹Ú½º")->getHeight());
