@@ -5,6 +5,7 @@
 
 void loadingScene::GiHoonImage()
 {
+	
 }
 
 

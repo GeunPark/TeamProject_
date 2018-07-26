@@ -87,6 +87,9 @@ void loadingScene::loadingImage()
 	//	_loading->loadImage(str, "mountain.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
 	//}
 	this->GeunHwaImage();
+	this->GiHoonImage();
+	this->SeoeaWonImage();
+	this->SunSooImage();
 
 }
 
