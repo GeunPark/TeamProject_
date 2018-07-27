@@ -24,9 +24,12 @@ void loadingScene::GiHoonImage()
 
 
 
+<<<<<<< HEAD
 	// 아이템 이미지
 
 
+=======
+>>>>>>> 1839ccbb295061cb59e96dd91d3ff0c8b407f4b3
 }
 
 
