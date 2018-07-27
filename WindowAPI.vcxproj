@@ -162,6 +162,7 @@
     <ClInclude Include="randomFunction.h" />
     <ClInclude Include="saveData.h" />
     <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="shop.h" />
     <ClInclude Include="singletonBase.h" />
     <ClInclude Include="soundManager.h" />
     <ClInclude Include="stage1.h" />
@@ -188,6 +189,7 @@
     <ClCompile Include="saveData.cpp" />
     <ClCompile Include="sceneManager.cpp" />
     <ClCompile Include="SeoeaWonLoadFile.cpp" />
+    <ClCompile Include="shop.cpp" />
     <ClCompile Include="soundManager.cpp" />
     <ClCompile Include="stage1.cpp" />
     <ClCompile Include="startScene.cpp" />

@@ -408,6 +408,8 @@ void image::render(HDC hdc, int destX, int destY, int sourX, int sourY, int sour
 	}
 }
 
+
+
 void image::alphaRender(HDC hdc, BYTE alpha)
 {
 	//알파블렌드를 처음사용하냐?
