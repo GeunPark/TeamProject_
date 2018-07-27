@@ -90,11 +90,10 @@ void loadingScene::loadingImage()
 	//}
 	this->GeunHwaImage();
 	this->GiHoonImage();
-<<<<<<< HEAD
-=======
+
 	this->SeoeaWonImage();
 	this->SunSooImage();
->>>>>>> af81a3f0df650ce792ae47b118851c7ec7c58ac4
+
 
 }
 
