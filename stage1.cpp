@@ -102,7 +102,7 @@ void stage1::render(void)
 	switch (_state)
 	{
 	case NORMAL:
-<<<<<<< HEAD
+
 
 		IMAGEMANAGER->findImage("스테이지1 픽셀")->render(getMemDC(), 0, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
 		IMAGEMANAGER->findImage("스테이지1")->render(getMemDC(),0,0, _cam.rc.left,_cam.rc.top,WINSIZEX, WINSIZEY);
@@ -126,8 +126,7 @@ void stage1::render(void)
 	//	}
 	//}
 
-=======
->>>>>>> 1839ccbb295061cb59e96dd91d3ff0c8b407f4b3
+
 	//	IMAGEMANAGER->findImage("스테이지1-1 픽셀")->render(getMemDC(), 0, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
 		//IMAGEMANAGER->findImage("스테이지1-1")->render(getMemDC(),0,0, _cam.rc.left,_cam.rc.top,WINSIZEX, WINSIZEY);
 		//IMAGEMANAGER->findImage("스테이지1-2")->render(getMemDC(), 10000, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
@@ -168,10 +167,7 @@ void stage1::cameraMove()
 	if (KEYMANAGER->isStayKeyDown(VK_LEFT))
 	{
 		_cam.x -= 100;
-<<<<<<< HEAD
 
-=======
->>>>>>> 1839ccbb295061cb59e96dd91d3ff0c8b407f4b3
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_UP))
 	{
