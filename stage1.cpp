@@ -36,9 +36,9 @@ void stage1::render(void)
 	{
 	case NORMAL:
 	//	IMAGEMANAGER->findImage("스테이지1-1 픽셀")->render(getMemDC(), 0, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
-		IMAGEMANAGER->findImage("스테이지1-1")->render(getMemDC(),0,0, _cam.rc.left,_cam.rc.top,WINSIZEX, WINSIZEY);
-		IMAGEMANAGER->findImage("스테이지1-2")->render(getMemDC(), 10000, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
-
+		//IMAGEMANAGER->findImage("스테이지1-1")->render(getMemDC(),0,0, _cam.rc.left,_cam.rc.top,WINSIZEX, WINSIZEY);
+		//IMAGEMANAGER->findImage("스테이지1-2")->render(getMemDC(), 10000, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
+		IMAGEMANAGER->findImage("스테이지1-11")->render(getMemDC(), 0, 0, _cam.rc.left, _cam.rc.top, WINSIZEX, WINSIZEY);
 		
 		break;
 	case ICE:
@@ -62,11 +62,11 @@ void stage1::cameraMove()
 {
 	if (KEYMANAGER->isStayKeyDown(VK_RIGHT))
 	{
-		_cam.x += 10;
+		_cam.x += 100;
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_LEFT))
 	{
-		_cam.x -= 10;
+		_cam.x -= 100;
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_UP) && _cam.rc.top > 0)
 	{

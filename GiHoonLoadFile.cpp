@@ -14,7 +14,7 @@ void loadingScene::GiHoonImage()
 	_loading->loadImage("스테이지1-1 얼음", "resource/스테이지1/스테이지1-1 얼음.bmp", 10000, 2750, true, MAGENTA);
 	_loading->loadImage("스테이지1-2 얼음", "resource/스테이지1/스테이지1-2 얼음.bmp", 10000, 2750, true, MAGENTA);
 	_loading->loadImage("스테이지1-1 얼음 픽셀", "resource/스테이지1/스테이지1-1 얼음 픽셀.bmp", 10000, 2750, true, MAGENTA);
-
+	_loading->loadImage("스테이지1-11", "resource/스테이지1/스테이지1.bmp", 20000, 2750, true, MAGENTA);
 	// 아이템 이미지
 
 
