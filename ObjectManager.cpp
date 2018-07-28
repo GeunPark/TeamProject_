@@ -10,13 +10,14 @@ ObjectManager::ObjectManager()
 	for (UINT i = 0; i < ObjectManager::END; ++i)
 	{
 		//자료형
+		//pair = 탬플릿형 구조체
 		pair<ObjectManager::ObjectType, vector<GameObject*>> objectPair;
 
 		//1
 		//objectPair.first = (ObjectType)i;
 		//objectPair.second = vector<GameObject*>();
 
-		//2										//생성과 동시에 넣어준다
+		//2										//생성과 빈 벡터 넣어준다
 		objectPair = make_pair((ObjectType)i, vector<GameObject*>());
 
 		this->ObjectList.insert(objectPair);
@@ -124,6 +125,7 @@ GameObject * ObjectManager::findObject(ObjectManager::ObjectType type, string na
 
 vector<class GameObject*> ObjectManager::findObjects(ObjectManager::ObjectType type, string name)
 {
+	//같은 이름의 게임오브젝트를 찾아서 벡터에 넣어서 그벡터를 반환
 	vector<GameObject*> findList;
 
 	for (UINT i = 0; i < ObjectList[type].size(); ++i)

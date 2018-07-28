@@ -8,6 +8,8 @@ public:
 	enum ObjectType { PLAYER, ENEMY, ITEM, UI, END };
 
 private:
+	//맵의 첫번째 first 는 상태 를 넣어주고, second는 벡터에 게임오브젝트포인터를 담은 벡터를 넣어준다.
+
 	unordered_map<ObjectType, vector<class GameObject*>> ObjectList;
 
 	typedef unordered_map<ObjectType, vector<class GameObject*>>::iterator ListIter;

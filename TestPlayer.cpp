@@ -13,7 +13,8 @@ TestPlayer::~TestPlayer()
 
 HRESULT TestPlayer::init()
 {
-	
+	//버추얼 가상함수지정이되있기때문에 부모의 init을 외부에서 호출이 안되기때문에 여기서 해준다.
+
 	GameObject::init("player", tagFloat(WINSIZEX / 2, WINSIZEY / 2));
 
 
@@ -51,7 +52,10 @@ void TestPlayer::update()
 		RECT temp;
 		if (IntersectRect(&temp, &EnemyList[i]->getRect(), &this->_rc))
 		{
-			EnemyList[i]->sendMessage(tagMessage("Attack", 0.f, 3));
+			//EnemyList[i]->sendMessage(tagMessage("Attack", 0.f, 3));
+
+
+			((TestEnemy*)EnemyList[i])->Damage();
 		}
 	}
 
