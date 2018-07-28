@@ -90,6 +90,7 @@ public:
 //=============================================================
 	void render(HDC hdc, int destX = 0, int destY = 0);
 	void render(HDC hdc, int destX, int destY, int sourX, int sourY, int sourWidth, int sourHeight);
+	
 
 //=============================================================
 //	## ¾ËÆÄ·»´õ ##

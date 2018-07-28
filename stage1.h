@@ -9,7 +9,9 @@ enum state
 struct tagBoxs
 {
 	int x, y;
+	bool isActive = true;
 	RECT rc;
+	image* _img;
 };
 
 class stage1 : public gameNode
@@ -17,6 +19,17 @@ class stage1 : public gameNode
 private:
 	state _state;
 	tagBoxs _cam;
+	//ū Ǯ
+	tagBoxs _bush[10];
+	vector<tagBoxs> _vBush;
+	vector<tagBoxs>::iterator _viBush;
+
+	int _count;
+	int _index;
+	int _count1;
+	int _index1;
+	//int _x, _y;
+
 
 public:
 
@@ -25,8 +38,9 @@ public:
 	void update(void);
 	void render(void);
 
-	void cameraMove();
+	void imageMove();
 
+	void cameraMove();
 	stage1() {}
 	~stage1() {}
 };
