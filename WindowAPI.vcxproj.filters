@@ -60,6 +60,15 @@
     <Filter Include="MainGame\로딩씬">
       <UniqueIdentifier>{94c43ebd-f025-44c9-a6d0-881b22d8b411}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\근화\GameObject">
+      <UniqueIdentifier>{0a2b3227-3b96-4b32-bcbe-f5a309c3187d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\근화\World">
+      <UniqueIdentifier>{5a04b472-39cd-4ee6-a8f3-b9d7b4dd9079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\근화\Test">
+      <UniqueIdentifier>{c7cbb50c-2ab0-4368-b816-d066e465ea76}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="commonMacroFunction.h">
@@ -119,17 +128,35 @@
     <ClInclude Include="soundManager.h">
       <Filter>GameFramework2D\매니져</Filter>
     </ClInclude>
-    <ClInclude Include="IntroScene.h">
-      <Filter>MainGame\근화</Filter>
-    </ClInclude>
     <ClInclude Include="loadingScene.h">
       <Filter>MainGame\로딩씬</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>MainGame\기훈</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>MainGame\근화\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>MainGame\근화\World</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>MainGame\근화</Filter>
     </ClInclude>
     <ClInclude Include="startScene.h">
       <Filter>MainGame\근화</Filter>
     </ClInclude>
-    <ClInclude Include="stage1.h">
-      <Filter>MainGame\기훈</Filter>
+    <ClInclude Include="TestScene.h">
+      <Filter>MainGame\근화\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlayer.h">
+      <Filter>MainGame\근화\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEnemy.h">
+      <Filter>MainGame\근화\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TagMessage.h">
+      <Filter>MainGame\근화\GameObject</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -184,14 +211,8 @@
     <ClCompile Include="soundManager.cpp">
       <Filter>GameFramework2D\매니져</Filter>
     </ClCompile>
-    <ClCompile Include="IntroScene.cpp">
-      <Filter>MainGame\근화</Filter>
-    </ClCompile>
     <ClCompile Include="loadingScene.cpp">
       <Filter>MainGame\로딩씬</Filter>
-    </ClCompile>
-    <ClCompile Include="GeunHwaLoadFile.cpp">
-      <Filter>MainGame\근화</Filter>
     </ClCompile>
     <ClCompile Include="GiHoonLoadFile.cpp">
       <Filter>MainGame\기훈</Filter>
@@ -202,11 +223,32 @@
     <ClCompile Include="SunSooLoadFile.cpp">
       <Filter>MainGame\선수</Filter>
     </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>MainGame\기훈</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>MainGame\근화\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>MainGame\근화\World</Filter>
+    </ClCompile>
+    <ClCompile Include="GeunHwaLoadFile.cpp">
+      <Filter>MainGame\근화</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>MainGame\근화</Filter>
+    </ClCompile>
     <ClCompile Include="startScene.cpp">
       <Filter>MainGame\근화</Filter>
     </ClCompile>
-    <ClCompile Include="stage1.cpp">
-      <Filter>MainGame\기훈</Filter>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>MainGame\근화\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayer.cpp">
+      <Filter>MainGame\근화\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEnemy.cpp">
+      <Filter>MainGame\근화\Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

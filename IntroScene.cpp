@@ -79,6 +79,7 @@ void IntroScene::update(void)
 	if (KEYMANAGER->isOnceKeyDown(VK_RETURN))
 	{
 		SOUNDMANAGER->play("셀렉사운드");
+
 		SCENEMANAGER->loadScene("스타트씬");
 		//SOUNDMANAGER->stop("로비씬배경음악");
 	}

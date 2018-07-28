@@ -17,6 +17,7 @@ void stage1::release(void)
 
 void stage1::update(void)
 {
+	
 	cameraMove();
 	switch (_state)
 	{
@@ -32,6 +33,7 @@ void stage1::update(void)
 
 void stage1::render(void)
 {
+	
 	switch (_state)
 	{
 	case NORMAL:
