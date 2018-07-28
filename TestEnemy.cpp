@@ -11,9 +11,9 @@ TestEnemy::~TestEnemy()
 {
 }
 
-HRESULT TestEnemy::init()
+HRESULT TestEnemy::init(tagFloat pos)
 {
-	GameObject::init("Enemy", tagFloat(RND->getFromIntTo(100, WINSIZEX), RND->getFromIntTo(100, WINSIZEY)));
+	GameObject::init("Enemy", pos);
 
 
 	this->addCallback("Attack", [this](tagMessage msg)
