@@ -56,6 +56,7 @@ void ObjectManager::update()
 {
 	ListIter iter = ObjectList.begin();
 
+
 	for (iter; iter != ObjectList.end(); ++iter)
 	{
 		for (UINT i = 0; i < iter->second.size(); ++i)

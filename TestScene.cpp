@@ -5,6 +5,7 @@
 
 TestScene::TestScene()
 {
+	
 }
 
 
@@ -14,12 +15,16 @@ TestScene::~TestScene()
 
 HRESULT TestScene::init()
 {
-	for (UINT i = 0; i < 10; ++i)
-	{
-		TestEnemy* Enemy = new TestEnemy;
-		Enemy->init();
-		OBJECTMANAGER->addObject(ObjectManager::ENEMY, Enemy);
-	}
+	
+	TestEnemy* Enemy = new TestEnemy;
+	Enemy->init(tagFloat(100,100));
+	OBJECTMANAGER->addObject(ObjectManager::ENEMY, Enemy);
+
+	TestEnemy* Enemy1 = new TestEnemy;
+	Enemy1->init(tagFloat(200, 100));
+	OBJECTMANAGER->addObject(ObjectManager::ENEMY, Enemy1);
+
+	
 
 	TestPlayer* Player = new TestPlayer;
 	Player->init();

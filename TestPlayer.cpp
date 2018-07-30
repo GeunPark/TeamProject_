@@ -47,6 +47,9 @@ void TestPlayer::update()
 
 	vector<GameObject*> EnemyList = OBJECTMANAGER->getObjectList(ObjectManager::ENEMY);
 
+
+
+
 	for (UINT i = 0; i < EnemyList.size(); ++i)
 	{
 		RECT temp;

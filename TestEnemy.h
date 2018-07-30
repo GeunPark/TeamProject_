@@ -6,7 +6,7 @@ public:
 	TestEnemy();
 	~TestEnemy();
 
-	HRESULT init();
+	HRESULT init(tagFloat pos);
 	void release();
 	void update();
 	void render();
