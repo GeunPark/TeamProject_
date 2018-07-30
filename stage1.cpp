@@ -175,20 +175,20 @@ void stage1::cameraMove()
 {
 	if (KEYMANAGER->isStayKeyDown(VK_RIGHT))
 	{
-		_cam.x += 100;
+		_cam.x += 50;
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_LEFT))
 	{
-		_cam.x -= 100;
+		_cam.x -= 50;
 
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_UP))
 	{
-		_cam.y -= 100;
+		_cam.y -= 50;
 	}
 	if (KEYMANAGER->isStayKeyDown(VK_DOWN))
 	{
-		_cam.y += 100;
+		_cam.y += 50;
 	}
 	if (_cam.x - WINSIZEX / 2 <= 0)
 	{

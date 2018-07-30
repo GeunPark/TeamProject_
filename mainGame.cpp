@@ -19,7 +19,7 @@ HRESULT mainGame::init(void)
 	SCENEMANAGER->addScene("스테이지1", new stage1);
 	SCENEMANAGER->addScene("테스트중", new TestScene);
 	/*현재씬 설정*/
-	SCENEMANAGER->loadScene("테스트중");
+	SCENEMANAGER->loadScene("로딩씬");
 
 	return S_OK;
 }
