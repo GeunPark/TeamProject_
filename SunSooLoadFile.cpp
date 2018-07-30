@@ -8,6 +8,9 @@
 
 void loadingScene::SunSooImage()
 {
+
+
+
 }
 
 
